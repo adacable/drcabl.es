@@ -1,0 +1,29 @@
+!!!
+%html
+    %head
+        =render "head"
+    %body{:class => (@item[:template] if @item[:template])}
+        .wrapper
+            .hgroup
+                =render "header"
+            .main
+                -if item[:kind] == "article"
+                    %article
+                        %h1
+                            =item[:title]
+                        -if item[:meta]
+                            .meta
+                                -item[:meta].each_pair do |k,v|
+                                    %dl
+                                        %dt
+                                            =k
+                                        %dd
+                                            =v
+                        -if item[:headerImg]
+                            %img{:src => item[:headerImg]}
+                 
+                        =yield
+                -else
+                    =yield
+            %footer
+                =render "footer"

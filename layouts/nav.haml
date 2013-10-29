@@ -1,0 +1,25 @@
+%ul.topLevleNav
+    -topLevelItems = []
+    -for @item in @site.items
+        -if ((@item.identifier.split("/").length <= 2) and not ( config[:noMenu].include?(@item.identifier)))
+            -if @currentItem.include?(@item.identifier) or (@item.identifier == @currentItem)
+                -topLevelItems.insert 0, @item #put it in the front of the array
+            -else #and if it isn't
+                -topLevelItems << @item #putt it in the back
+    -for @item in topLevelItems
+        -if @currentItem != "/"#if not index
+            -if not(((@item.identifier == @currentItem ) and (@item.children == [])) or (@item.identifier == "/"))
+                %li.topLevelNavItem.blah
+                    %a{:href => @item.identifier , :class => ("hidden" if (@item.identifier.include? @currentItem.split("/")[1] ))}
+                        =@item[:title]
+                    %ul.secondLevelNav
+                        -for @itemChild in @item.children
+                            -if @itemChild.identifier.include?(@currentItem) or @itemChild.identifier == @currentItem
+                                %li.secondLevelNavItem
+                                    %a{:href => @itemChild.identifier, :class => ("currentItem" if @item.identifier == @currentItem), :title => @itemChild[:title] }
+                                        =@itemChild[:title][0..12]+ "..."
+        -else#if index
+            -if not((@item.identifier == @currentItem ) and (@item.children == []))#if menue item is not the current page
+                %li.blah.topLevelNavItem{:class => ("hidden" if (@item.identifier == "/" ))}
+                    %a{:href => @item.identifier }
+                        =@item[:title]

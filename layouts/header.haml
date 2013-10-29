@@ -1,0 +1,10 @@
+%h1.site-title 
+    -if @item.identifier != "/"
+        %a{:href => "/" + @item.identifier.split("/")[1] + "/" }
+            =@item.identifier.split("/")[1]
+    -else
+        %a{:href => "/" }
+            =@item[:title]
+%nav.main-site
+    =render "nav" ,:currentItem => @item.identifier 
+

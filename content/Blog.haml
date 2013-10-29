@@ -1,0 +1,6 @@
+---
+title: Blog
+---
+-for article in sorted_articles
+    -if article.identifier.include? "/Blog/"
+        =render "articleRender" , :article => article

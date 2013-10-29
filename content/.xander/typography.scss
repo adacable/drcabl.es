@@ -1,0 +1,84 @@
+body{
+    font-size:20px;
+    line-height:140%;
+}
+.site-title{
+    &:before{
+        content:"DRcable's "
+    }
+}
+a{
+    color:$orange;
+}
+h1 a{
+    color:black;
+    text-decoration:none;
+}
+p{
+    text-indent:-0.5rem;
+    padding-left:0.5rem;
+    &:first-letter{
+        font-weight:bold;
+    }
+    &:first-child:first-letter{
+        font-weight:normal;
+    }
+}
+em{
+    display:inline;
+    font-style:italic;
+}
+strong{
+    display:inline;
+    font-weight:bold;
+}
+.main ul {
+    padding:1rem 0;
+    list-style-type:disc;
+    li{
+        display:list-item;
+    }
+}
+blockquote{
+    margin:1rem 0;
+    p{
+        text-indent:0;
+            &:first-letter{
+                font-weight:normal;
+        }
+    }
+    p+p{
+        padding-top:1rem;
+    }
+    &:before{
+        height:100%;
+        position:absolute;
+        background-color:black;
+        left:-1rem;
+        width:0.3rem;
+        display:block;
+        content:""
+    }
+    &.verse{
+        &:before{
+            display:none;
+        }
+        width:100%;
+        font-style:italic;
+        text-align:center;
+        white-space:pre-line;
+    }
+}
+.main{
+    width:100%;
+}
+article{
+    h1{
+        font-size:2rem;
+        line-height:100%;
+    }
+    h2{
+        font-size:1.5rem;
+        line-height:280%;
+    }
+}

@@ -1,0 +1,14 @@
+%article
+    %h1
+        %a{:href => @article.identifier}
+            =@article[:title]
+    %section.content
+        -if @article[:meta]
+            .meta
+                -@article[:meta].each_pair do |k,v|
+                    %dl
+                        %dt
+                            =k
+                        %dd
+                            =v
+        =@article.compiled_content

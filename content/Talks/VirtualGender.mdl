@@ -1,0 +1,75 @@
+---
+title: Virtual Gender- The digital closet
+kind: article
+---
+
+ _This is the text of my virtual gender unconference talk from the 2013 virtual gender unconference, editied slightly for reading rather than speaking._
+ _It's pretty basic, desgined for a group of accademics who don't live on the internet, but study "virtual worlds"_
+
+Hi, I'm DRcable, and I'm going to talk about being queer on the network, and how it relates to being queer in the real world. 
+
+Let's dive right into it, and look at how queers use the network and the architecture of some common network!spaces. 
+
+Marginalized groups in general have flocked to new mediums through time. The lack of regulation and cheaper cost of distribution that generally come with new technolgies have made everything from the printing press to the telephone the home of political radicals and rebels- benjamin franklein was a printers apprentice and the history of phone phreaking speaks for itself.
+
+The packet switched network is no different, except arguably in size. Since before the first battles of the ongoing crypto wars people have used this medium to organize and distribute propoganda, and to form communities across the world. People organize in these spaces because they are more efficient for distributed movements than traditional spaces are, but this is not all- there is a certain separation from the world away from the keyboard, and whether this separation is real or imagined, and if it matters, is what we're interested in today. 
+
+Technologies have lead to changes in self expression before, but the Internet is almost unique in the extent to which it has replaced previous technologies to form spaces and channels for expression.
+
+In terms of sexuality, this has been well documented- When the network consisted of fax machines and photocopiers, or even walls to sprawl grafiti on, people were using it to distribute erotica- there are documented cases of (het) roleplay using the postal service, though it wasn't until later that queer erotica is documented in modern society- the first documented kirk slash spock was in 1974, generally considered the start of common non-het pairings in these medium. 
+
+This ties into the natitive I outlined above, in which new and un or less regulated mediums are consistently used by marginalized groups, of which even het erotica writers were a member for much of the last century, and to a lesser extent still are. 
+However, when we turn to talking about queer erotica it is a mixed story: There is certainly a lot of queer erotica out there, and in some spaces, such as fandom, which is comparitivley well studied, it is a majority of the work. However, according to the best studies of fandom as much as 70%, is male/male and fandom is commonly accepted to be vast majority female. 
+
+So, is fandom a space for queer people to express their sexuality, or is it a space for white teenage het girls to write about hot men having sex? 
+
+Surveys of slash writers indicate that approximately 60% of slash writers ID as some form of queer- However, femslash, consisting of female/female relationships, is a far smaller proportion than slash- approximately 5% of all fic. 
+So if fandom is a queer, massively female space, why is this? 
+
+At the end of the day, we can't say: Internalized Misoginy is often suggested, and people often point fingers at lack of two female characters of quality to slash, but it's one which needs more time and research to propperly consider. Sexuality in fandom is complex- it is a very queer space, but it's not one that expresses itself as you'd expect. 
+
+It is important to note that fandom is not an exclusivley online space, but one that transcends the AFK divide- conventions and meetups, especially fmaller, fandom specific ones, and ones in more female focused fandoms are often very accepting of queers. 
+This leads to an interesting phenomena where peoples presentations in different spaces clash- a problem also experienced with traditional closeting when friends of closeted people have to react differently to the closet depending on whether others in the space know they're queer- this is especially noticable with trans people, who need different pronouns in different spaces. 
+
+This phenomena also occours in reverse- if a trans person is closeted IRL, it can be quite supprising if you look up their handle to find they're actually a different gender!
+
+Another common expression of sexuality is the porn blog, or ocasionally porn sections- Almost unique to tumblr, people use these to express their sexuality in a far more detailed manner than words can convey- a comprehensive list of what turns them on, including kinks, body preference and anything else conceivable. 
+
+Porn blogs are usualy posted in the sidebar of a page, or more ocasionally shared privately among close friends, both online or offline- our taste in porn is often a deeply personal thing, sometimes more so than our sexuality. 
+
+Another interesting expression, in contrast to the indirect examples of self expression above is the profile page- on pretty much every social site, blogging platform or personal website there is an about page or section, which people fill with their identities. You can be defined to new people exactly how you want no matter how you present, what clothes you're wearing, if any, mean nothing and you're allowed to let people see just the bits(so to speak) you want to show. This kind of identity control is unprecedented, and there is a long tradition of people online presenting "not as they are", be it pretending to be a 45 year old FBI agent who spells like a 13 year old, presenting as male to avoid abuse, or setting up your profile as your gender identity. Because of the limited bandwidth, and ease of "faking" the signals you do have, then to quote a cliche,  "on the Internet, no-one knows you're a dog". 
+Obviously, this kind of identity control is extra important to trans* people, who can state their gender explicitly with a 'gender' or 'sex' option on their profile, or where this is not available in the general about page- for example, it is accepted to put your pronouns in your about box in sections of tumblr. 
+
+Another network space where trans* people are free to experiment is the MMORPG- Here charecters are often sexed on a binary, which is problematic in some respects, for example Armour differences and problematic body shapes, but it is excelent for binary trans people who want a space they can leave with fewer costs than their AFK lives. 
+
+A particular example is fallen london, which is famouns among online trans* communities for allowing non-gendered charecters, and none-sexed clothing choices, allowing male charecters to wear dressed and visa versa, in a simmilar way to the most recent animal crossing game.
+We should note, as always, that this is not a network only phenomenon- since time immemorial trans*(and none trans*) people have been playing tabletop RPGs and larping as different genders to those they were born with for the 40 years.
+
+Trans people also commonly state their identity by using abstract art or artistic interpretations of themselves for profile pictures- or indeed photos of them presenting as they want to be seen. These, alongside ungendered or correctly gendered usernames allow them to live the life they want to "online", despite restrictions "offline". 
+
+The last thing I want to look at before I start talking theory is grindr and
+technologically enabled cruising. These are technologies that literally give us a gaydar, allowing us to drop the previous, ugly technologies of secret signals and jewelry to make the "queer discovery" task safer and easier. 
+
+These tools are especially useful in less safe spaces, far from a cosmopolitan city, where being queer can have severe consequences- across the middle east, and on US military bases the world over, grindr and craigslist fill up with carefully or not so carefully coded messages, hiding themselves with their physical presentation, but searching for physical closeness via digital means.
+
+Particularly relevant are some less venture-capitalized high-tech methods of cruising- In Iran and the middle east, currently an especially dangerous environment for queers, people place 'cruising handles' in their bluetooth ID boxes, and can flirt safely and anonymously by sending pictures via bluetooth. This is a safe space, and it is neither solely of the virtual, nor of the physical. It lies in both- bluetooth only has a range of 20 meters, ensuring phsycical closeness for a quick get together, but it is mediated by the "virtual". 
+
+Now, let's talk a bit of theory- in /code/ lessig talks about the architecture of his "cyberspace", and how it acts to regulate actions within cyberspace- making impossible to steal within the game mechanics of a MMORPG by simply removing the "pickpocket" button. His model proved prescient for the issues he was talking about- the pirate bay verdict being the example that comes to mind when we talk about the state using code/architechture to effect behavior, and the now-infamous panopticon the NSA has constructed. 
+
+His work goes a long way to explaining the effects we've seen above- while the legislation and market have not changed when we look at network phenomena, and the norms have changed a little- we only need to look at the pervasive misoginy in most network spaces to see this- the architecture is massively different. 
+
+Blocklists and killfiles, along with careful tending to our following lists mean we can form filter bubbles where the norms are significantly different, and we are safer from abuse. It is telling that when people complain about the problems of misoginy, they ask for changes in architecture- not even the addition of a report abuse button, in the recent twitter case, but more prominence for it. 
+
+But we must remember that actions in these spaces are not separate from those without- @everydaysexism is all about bridging this gap, and a significant proportion of queer discourse is on experiences AFK. When someone leaves their keyboard, it doesn't mean they leave their life there. If you make a transphobic joke next to someone who's out online, it still hurts, and when they talk about their experience online, it still helps - they're the same person, experiencing the same actions, simply mediated through different sets of technologies. 
+
+This extends into much more pervasive technologies- If you have twitter on your phone and complain about people making dongle jokes behind you, you're still under threat of physical retribution from these people. If you accidentally bluetooth!cruise an police officer in tehran, you're under the same threat. You're "online" and "offline" simultaneously, even if you're only making a note to tweet about sexist signage as you wander like a hermit through the wilderness.
+
+Sociologist nathan juggerson calls this state argument reality- the physical world overlayed with technological communication methods, or alternatively a world of the mind built intersecting continually with the physical world. He argues that "digital and material realities dialectically co-construct each other.", that the physical interactions and actions are so influenced by the network, and visa versa, that it is a fallacy to think of these two separate realities.
+
+So, is there a digital closet? at the end of the day, I would argue that there is not- Certainly, all of the effects I've described above exist, and happen, but they are all mediated by the physical as much as the digital.
+
+The construction of a digital closet comes from the illusion that the divide of the closet is sharp along the digital line- but this is not true, because while their experience is mediated by computers, there are always physical people on the other side of the connection. This is not to suggest that this connection is any less "real" than a physical connection, but that there is no difference enforced by the fact that the connection is digitally mediated.
+
+The digital closet, along with all constructions of the same type, is a fallacy.
+
+ _For further reading on this topic I strongly reccomend nathan juggerson, both in his introductuary essay "[The IRL fetish](http://thenewinquiry.com/essays/the-irl-fetish/)" and all of his(and his copatriates) work on [cyborgology](thesocietypages.org/cyborgology/)._

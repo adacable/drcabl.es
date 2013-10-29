@@ -1,0 +1,7 @@
+.grid
+    -items_with_tag(@tag).each do |item|
+        %a.product{:href =>  item.identifier }
+            %h1.producttitle
+                =item[:title]
+            %img.productimg{:src => item[:smallimg]}
+
