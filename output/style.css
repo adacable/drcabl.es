@@ -197,6 +197,8 @@ nav.main-site {
       padding-bottom: 1rem;
       text-transform: uppercase;
       font-weight: lighter; }
+    .main article .content {
+      width: 100%; }
     .main article img {
       display: block;
       max-width: 100%;
