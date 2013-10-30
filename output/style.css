@@ -138,7 +138,8 @@ nav.main-site {
     display: none; }
   .topLevelNavItem a {
     width: 200%;
-    text-decoration: none; }
+    text-decoration: none;
+    display: inline-block; }
     .topLevelNavItem a:before {
       content: "/";
       color: black;
