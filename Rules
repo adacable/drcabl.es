@@ -33,7 +33,7 @@ route '/images/*' do
     item.identifier.chop + '.' + item[:extension]
 end
 compile '*' do
-    if item[:extension] == 'mdl'
+    if item[:extension] == 'mdl' or  item[:extension] == "md"
       filter :kramdown
     else
       filter :haml
