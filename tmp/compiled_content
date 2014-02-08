@@ -1593,7 +1593,7 @@ I"Í<p>Drcable maintains a few other places on the web:</p>
   <li>A sporadic IRC presence on freenode(drcable)</li>
   <li>A <a href="https://github.com/drcable">github profile</a></li>
 </ul>
-;T;@4I"/Gender/;T{;{	;I"™<!DOCTYPE html>
+;T;@4I"/Gender/;T{;{	;I"ø<!DOCTYPE html>
 <html>
   <head>
     <link href='/style.css' rel='stylesheet'>
@@ -1640,7 +1640,8 @@ I"Í<p>Drcable maintains a few other places on the web:</p>
         </nav>
       </div>
       <div class='main'>
-        <p>DRcable is not a dude. They donâ€™t give a shit about pronouns, but would prefer it if youâ€™d refrain from using non-male ones when youâ€™re in the presence of their parents or in huddersfield/the north.</p>
+        <p>DRcable is not a dude, but a non-binary person. They prefer they for personal pronouns, but anything non-binary or femminine is acceptable. 
+        That said, theyâ€™d prefer it if youâ€™d refrain from using non-male ones when youâ€™re in the presence of their parents or in huddersfield/the north.</p>
       </div>
       <footer>
         <section class='licence'>
@@ -1650,8 +1651,10 @@ I"Í<p>Drcable maintains a few other places on the web:</p>
     </div>
   </body>
 </html>
-;T;	I"ÆDRcable is not a dude. They don't give a shit about pronouns, but would prefer it if you'd refrain from using non-male ones when you're in the presence of their parents or in huddersfield/the north.;T;
-I"Ô<p>DRcable is not a dude. They donâ€™t give a shit about pronouns, but would prefer it if youâ€™d refrain from using non-male ones when youâ€™re in the presence of their parents or in huddersfield/the north.</p>
+;T;	I"DRcable is not a dude, but a non-binary person. They prefer they for personal pronouns, but anything non-binary or femminine is acceptable. 
+That said, they'd prefer it if you'd refrain from using non-male ones when you're in the presence of their parents or in huddersfield/the north.;T;
+I"+<p>DRcable is not a dude, but a non-binary person. They prefer they for personal pronouns, but anything non-binary or femminine is acceptable. 
+That said, theyâ€™d prefer it if youâ€™d refrain from using non-male ones when youâ€™re in the presence of their parents or in huddersfield/the north.</p>
 ;T;@:I"/images/1/;T{;{ I"/images/bots/;T{;{ I"/images/bots_small/;T{;{ I"/images/duck/;T{;{ I"/images/duck_small/;T{;{ I"/images/echochamber/;T{;{ I"/images/echochamber_small/;T{;{ I"/images/fanbots/;T{;{ I"/images/fanbots_small/;T{;{ I"/images/hashnote-small/;T{;{ I"/images/hashnote/;T{;{ I"/images/hoodie/;T{;{ I"/images/hoodie_small/;T{;{ I"/images/pg_bible/;T{;{ I"/images/web/;T{;{ I"/images/web_small/;T{;{ I"/images/wow-small/;T{;{ I"/images/wow/;T{;{ I"/stylesheet/;T{;{;I"Q/*Walpole css reset, a composite of the meyerweb 2.0 and the html5 doctor, with some modifications made for the kind of development i do*/
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
