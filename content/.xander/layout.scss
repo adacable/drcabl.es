@@ -65,6 +65,7 @@ nav.main-site{
         position:absolute;
         bottom:10rem;
         height:10rem;
+        left:0;
         section.licence{
             width:100%;
             text-align:center;
@@ -77,9 +78,9 @@ nav.main-site{
 .main{
     padding-top:2rem;
     padding-left:25%;
+    width:50%;
     article{
         padding-top:3rem;
-        width:50%;
         display:block;
         &:first-child{
             padding-top:0;

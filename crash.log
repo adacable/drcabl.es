@@ -1,53 +1,37 @@
-Crashlog created at 2014-02-06 19:26:48 +0000
+Crashlog created at 2014-02-08 10:36:57 +0000
 
 ===== MESSAGE:
 
-LoadError: cannot load such file -- sass
-Install the 'sass' gem using `gem install sass`.
+LoadError: cannot load such file -- mime/types
+Install the 'mime-types' gem using `gem install mime-types`.
 
 ===== COMPILATION STACK:
 
-  - [item]   /stylesheet/ (rep default)
+  (empty)
 
 ===== STACK TRACE:
 
   0. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:45:in `require'
   1. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/rubygems/core_ext/kernel_require.rb:45:in `require'
-  2. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:100:in `block in setup'
-  3. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:100:in `each'
-  4. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:100:in `setup'
-  5. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/filter.rb:121:in `setup_and_run'
-  6. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/result_data/item_rep.rb:344:in `filter'
-  7. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/item_rep_proxy.rb:47:in `filter'
-  8. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule_context.rb:55:in `filter'
-  9. ./Rules:23:in `block in load'
-  10. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `instance_eval'
-  11. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/rule.rb:68:in `apply_to'
-  12. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:384:in `compile_rep'
-  13. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:340:in `block in compile_reps'
-  14. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `loop'
-  15. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:333:in `compile_reps'
-  16. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/compilation/compiler.rb:89:in `run'
-  17. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/base/source_data/site.rb:58:in `compile'
-  18. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:395:in `block in run'
-  19. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:436:in `run_listeners_while'
-  20. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/compile.rb:394:in `run'
-  21. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:14:in `block in call'
-  22. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  23. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  24. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:13:in `call'
-  25. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command_dsl.rb:185:in `block in runner'
-  26. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `call'
-  27. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `run_this'
-  28. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:251:in `run'
-  29. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:264:in `run'
-  30. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:59:in `block in run'
-  31. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
-  32. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
-  33. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:57:in `run'
-  34. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/bin/nanoc:19:in `<top (required)>'
-  35. /usr/bin/nanoc:23:in `load'
-  ... 38 more lines omitted. See full crash log for details.
+  2. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/extra/auto_compiler.rb:17:in `initialize'
+  3. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/autocompile.rb:56:in `new'
+  4. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/commands/autocompile.rb:56:in `run'
+  5. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:14:in `block in call'
+  6. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  7. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  8. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/command_runner.rb:13:in `call'
+  9. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command_dsl.rb:185:in `block in runner'
+  10. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `call'
+  11. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:298:in `run_this'
+  12. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:251:in `run'
+  13. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib/cri/command.rb:264:in `run'
+  14. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:59:in `block in run'
+  15. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:70:in `handle_while'
+  16. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli/error_handler.rb:26:in `handle_while'
+  17. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib/nanoc/cli.rb:57:in `run'
+  18. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/bin/nanoc:19:in `<top (required)>'
+  19. /usr/bin/nanoc:23:in `load'
+  ... 22 more lines omitted. See full crash log for details.
 
 ===== VERSION INFORMATION:
 
@@ -63,6 +47,7 @@ Darwin kanaya.local 13.0.2 Darwin Kernel Version 13.0.2: Sun Sep 29 19:38:57 PDT
   CFPropertyList 2.2.0
   colored 1.2
   cri 2.4.1
+  gist 4.2.0
   haml 4.0.5
   jsmin 1.0.1
   kramdown 1.3.1
@@ -71,30 +56,38 @@ Darwin kanaya.local 13.0.2 Darwin Kernel Version 13.0.2: Sun Sep 29 19:38:57 PDT
   nanoc 3.6.7
   nanoc-toolbox 0.1.3
   nokogiri 1.5.6, 1.6.1
+  rack 1.5.2
+  sass 3.2.14
   sqlite3 1.3.7
   tilt 2.0.0
 
 ===== ENVIRONMENT:
 
-Apple_PubSub_Socket_Render => "/tmp/launch-VINjOG/Render"
+Apple_PubSub_Socket_Render => "/tmp/launch-gfqiQx/Render"
+GREP_COLOR => "1;32"
+GREP_OPTIONS => "--color=auto"
 HOME => "/Users/drcable"
 LANG => "en_GB.UTF-8"
+LC_CTYPE => "en_GB.UTF-8"
+LESS => "-R"
 LOGNAME => "drcable"
-OLDPWD => "/Users/drcable/drcabl.es/content"
-PATH => "/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin:/opt/local/bin:/opt/local/sbin:/Users/drcable/.rvm/bin"
+LSCOLORS => "Gxfxcxdxbxegedabagacad"
+OLDPWD => "/Users/drcable/drcabl.es/layouts"
+PAGER => "less"
+PATH => "/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/MacGPG2/bin:/Users/drcable/.rvm/bin"
+PS1 => "%F{002}%n%f%F{255}@%f%F{029}%m%f %F{255}%~%f %F{002}%(!.॥.।)%f "
 PWD => "/Users/drcable/drcabl.es"
-SECURITYSESSIONID => "186a5"
-SHELL => "/bin/bash"
+SECURITYSESSIONID => "186a4"
+SHELL => "/bin/zsh"
 SHLVL => "2"
-SSH_AUTH_SOCK => "/tmp/launch-zyCB25/Listeners"
-SUDO_PS1 => "\\[\\e[0;31m\\]\\u\\[\\e[m\\]\\e[38;5;15m@\\e[38;5;29m\\h \\e[38;5;15m\\w\\[\\e[m\\] \\[\\e[0;31m\\# \\[\\e[m\\]\\["
+SSH_AUTH_SOCK => "/tmp/launch-GVgDLQ/Listeners"
 TERM => "screen-256color"
 TERM_PROGRAM => "Apple_Terminal"
 TERM_PROGRAM_VERSION => "326"
-TERM_SESSION_ID => "061154A3-5A44-4D9E-98DE-5F7A754816D9"
+TERM_SESSION_ID => "193AA527-0446-4CC5-9854-C3B004FCE5EF"
 TMPDIR => "/var/folders/mq/yd82n9752zv1q798vm2mcbn80000gn/T/"
-TMUX => "/private/var/folders/mq/yd82n9752zv1q798vm2mcbn80000gn/T/tmux-501/default,16375,0"
-TMUX_PANE => "%7"
+TMUX => "/private/var/folders/mq/yd82n9752zv1q798vm2mcbn80000gn/T/tmux-501/default,513,0"
+TMUX_PANE => "%2"
 USER => "drcable"
 _ => "/usr/bin/nanoc"
 __CF_USER_TEXT_ENCODING => "0x1F5:0:0"
@@ -103,10 +96,26 @@ _system_arch => "x86_64"
 _system_name => "OSX"
 _system_type => "Darwin"
 _system_version => "10.9"
+rvm_alias_expanded => ""
 rvm_bin_path => "/Users/drcable/.rvm/bin"
+rvm_docs_type => ""
+rvm_gemstone_package_file => ""
+rvm_gemstone_url => ""
+rvm_niceness => ""
+rvm_nightly_flag => ""
 rvm_path => "/Users/drcable/.rvm"
 rvm_prefix => "/Users/drcable"
+rvm_proxy => ""
+rvm_quiet_flag => ""
+rvm_ruby_file => ""
+rvm_ruby_make => ""
+rvm_ruby_make_install => ""
+rvm_ruby_mode => ""
+rvm_script_name => ""
+rvm_sdk => ""
+rvm_silent_flag => ""
 rvm_version => "1.25.15 (stable)"
+rvm_wrapper_name => ""
 
 ===== LOAD PATHS:
 
@@ -114,21 +123,15 @@ rvm_version => "1.25.15 (stable)"
   1. /Library/Ruby/Gems/2.0.0/gems/colored-1.2/lib
   2. /Library/Ruby/Gems/2.0.0/gems/cri-2.4.1/lib
   3. /Library/Ruby/Gems/2.0.0/gems/nanoc-3.6.7/lib
-  4. /Library/Ruby/Gems/2.0.0/gems/mini_portile-0.5.2/lib
-  5. /Library/Ruby/Gems/2.0.0/gems/nokogiri-1.6.1/lib
-  6. /Library/Ruby/Gems/2.0.0/gems/jsmin-1.0.1/lib
-  7. /Library/Ruby/Gems/2.0.0/gems/nanoc-toolbox-0.1.3/lib
-  8. /Library/Ruby/Gems/2.0.0/gems/kramdown-1.3.1/lib
-  9. /Library/Ruby/Gems/2.0.0/gems/tilt-2.0.0/lib
-  10. /Library/Ruby/Gems/2.0.0/gems/haml-4.0.5/lib
-  11. /Library/Ruby/Site/2.0.0
-  12. /Library/Ruby/Site/2.0.0/x86_64-darwin13
-  13. /Library/Ruby/Site/2.0.0/universal-darwin13
-  14. /Library/Ruby/Site
-  15. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0
-  16. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin13
-  17. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/universal-darwin13
-  18. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby
-  19. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0
-  20. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin13
-  21. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin13
+  4. /Library/Ruby/Gems/2.0.0/gems/rack-1.5.2/lib
+  5. /Library/Ruby/Site/2.0.0
+  6. /Library/Ruby/Site/2.0.0/x86_64-darwin13
+  7. /Library/Ruby/Site/2.0.0/universal-darwin13
+  8. /Library/Ruby/Site
+  9. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0
+  10. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/x86_64-darwin13
+  11. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby/2.0.0/universal-darwin13
+  12. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/vendor_ruby
+  13. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0
+  14. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/x86_64-darwin13
+  15. /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/universal-darwin13
