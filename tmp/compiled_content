@@ -1658,7 +1658,7 @@ That said, they'd prefer it if you'd refrain from using non-male ones when you'r
 I"3<p>DRcable is not a dude, but a non-binary person. They prefer they for personal pronouns, but anything non-binary or femminine is acceptable. </p>
 
 <p>That said, they’d prefer it if you’d refrain from using non-male ones when you’re in the presence of their parents or in huddersfield/the north.</p>
-;T;@:I"/images/1/;T{;{ I"/images/bots/;T{;{ I"/images/bots_small/;T{;{ I"/images/duck/;T{;{ I"/images/duck_small/;T{;{ I"/images/echochamber/;T{;{ I"/images/echochamber_small/;T{;{ I"/images/fanbots/;T{;{ I"/images/fanbots_small/;T{;{ I"/images/hashnote-small/;T{;{ I"/images/hashnote/;T{;{ I"/images/hoodie/;T{;{ I"/images/hoodie_small/;T{;{ I"/images/pg_bible/;T{;{ I"/images/web/;T{;{ I"/images/web_small/;T{;{ I"/images/wow-small/;T{;{ I"/images/wow/;T{;{ I"/stylesheet/;T{;{;I"Q/*Walpole css reset, a composite of the meyerweb 2.0 and the html5 doctor, with some modifications made for the kind of development i do*/
+;T;@:I"/images/1/;T{;{ I"/images/bots/;T{;{ I"/images/bots_small/;T{;{ I"/images/duck/;T{;{ I"/images/duck_small/;T{;{ I"/images/echochamber/;T{;{ I"/images/echochamber_small/;T{;{ I"/images/fanbots/;T{;{ I"/images/fanbots_small/;T{;{ I"/images/hashnote-small/;T{;{ I"/images/hashnote/;T{;{ I"/images/hoodie/;T{;{ I"/images/hoodie_small/;T{;{ I"/images/pg_bible/;T{;{ I"/images/web/;T{;{ I"/images/web_small/;T{;{ I"/images/wow-small/;T{;{ I"/images/wow/;T{;{ I"/stylesheet/;T{;{;I"k/*Walpole css reset, a composite of the meyerweb 2.0 and the html5 doctor, with some modifications made for the kind of development i do*/
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -1716,7 +1716,8 @@ p {
   text-indent: -0.5rem;
   padding-left: 0.5rem; }
   p:first-letter {
-    font-weight: bold; }
+    font-weight: bold;
+    padding-right: 0.1px; }
   p:first-child:first-letter {
     font-weight: normal; }
 
