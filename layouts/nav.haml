@@ -1,9 +1,9 @@
 %ul.topLevleNav
     -topLevelItems = []
     -for @item in @site.items
-        -if ((@item.identifier.split("/").length <= 2) and not ( config[:noMenu].include?(@item.identifier)))
-            -if @currentItem.include?(@item.identifier) or (@item.identifier == @currentItem)
-                -topLevelItems.insert 0, @item #put it in the front of the array
+        -if ((@item.identifier.split("/").length <= 2) and not ( config[:noMenu].include?(@item.identifier))) #if it's a top level item and is meant to be in the menu
+            -if @currentItem.include?(@item.identifier) or (@item.identifier == @currentItem) #if it's in the ID of the current item
+                -topLevelItems.insert 0, @item #put it in the front of the array(so it'll be on top)
             -else #and if it isn't
                 -topLevelItems << @item #putt it in the back
     -for @item in topLevelItems

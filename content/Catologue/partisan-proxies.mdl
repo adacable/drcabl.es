@@ -1,0 +1,23 @@
+---
+kind: portfolio
+layout: portfolio
+title: Partisan proxies
+header_image: /images/partisan-proxies.png
+short_description: Making different internets at the infastructure level.
+---
+The partisan proxies are an attempt to imagine and enforce different internets with different biases and rules, in order to examin the biases and rules of the commonly discussed western web.
+
+To do this, rather than intervening in the browser, as plugins such as nCage do, This was a change to the internet architechture on a network level. Packets were captured, scanned and edited between the server and user, changing the actual internet itself, rather than one viewers understanding of it(as far as such a distinction can be drawn). The user literaly experiences a different internet, and can only adopy anti-circumvention measures, encryption, or simply read between the lines. 
+
+Some proxies imagine direct anologues to other internets found throughout the globe- one blocks any pages mentioning any members of the uk cabinet, and another prefixes “david cameron” with “our glorious leader”. While over the top, these make a serious point about the politics of current networks and their subtle biases- Especially the examples that simply add a wait of one second to pages not on a short list of allowed sites. 
+
+Less direct, but still fascinating to browse with, other proxies ban certain kinds of file- stylesheets or images, for example, breaking website designs in different ways, and emphasising or hiding content that the user may otherwise not encounter. 
+
+Built on technology origionally desgined for security testing and man in the middle attacks(especially javascript injection), the same type used by many of the entities that create the most obvious differences between internets, nation states and internet service providers, these experiments propose different uses for these tools- As internet altering drugs, useful for leasure and work.   
+
+The proxies are largley a product of my older processes- Find an interesting issue(in this case, “theorising the non western web(s)” a pannel at theorising the web conference 2014), wonder, and then produce quick iterations to home in on an idea- Starting with simple political and technical hacks, and increasing in subtley and sophistication in the hopes of finding somthing to generate new ideas.
+
+As such, users were largley inconsidered- there is no simple interface for switching proxy, or guide on installing them. However, the course placed a nagging user in the back of my head, and they did influence many descions. The language and style of the plugins are relitavley easy to understand, and the project can be used by laypeople with no trouble once installed. 
+
+Looking to the future, packaging these in a easily accessible application would be a priority, as their inaccesibility is a downside of interfereing on deeper levels of infastructure. 
+

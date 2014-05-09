@@ -1,0 +1,28 @@
+!!!
+%html
+    %head
+        =render "head"
+    %body{:class => (@item[:layout] if @item[:layout])}
+        .wrapper
+            .hgroup
+                =render "header"
+            .main
+                -if @item[:header_video] and @item[:header_image]
+                    %video#mainVideo.item-header{ :poster => @item[:header_image]}
+                        %source{ :src => "/static/videos/" + @item[:header_video] + "-ogv.ogv", :type => "video/ogg"}
+                        %source{ :src => "/static/videos/" + @item[:header_video] + "-mp4.mp4", :type => "video/mp4"}
+                -if @item[:header_image] and not @item[:header_video]
+                    %img.item-header{:src => @item[:header_image]}
+                #titleGroup.titleGroup
+                    %h1
+                        =@item[:title]
+                    %h2
+                        =@item[:short_description]
+                    -if @item[:header_video] and @item[:header_image]
+                        .playButton{:onclick => "document.getElementById('mainVideo').play();document.getElementById('mainVideo');document.getElementById('titleGroup').className = document.getElementById('titleGroup').className + ' playing'"}
+                            &#9654;
+
+                %article
+                    =yield
+            %footer
+                =render "footer"

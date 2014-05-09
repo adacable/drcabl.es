@@ -29,6 +29,9 @@ end
 compile '/images/*' do
     #pass
 end
+compile '/static/*' do
+    #pass
+end
 route '/images/*' do
     item.identifier.chop + '.' + item[:extension]
 end
@@ -38,7 +41,11 @@ compile '*' do
     else
       filter :haml
     end
-  layout "default"
+  if not item[:layout]
+    layout "default"
+  else
+    layout item[:layout]
+  end
 end
 #compile '*' do
 #  if item.binary?

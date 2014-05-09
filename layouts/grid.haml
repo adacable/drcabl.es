@@ -1,0 +1,17 @@
+!!!
+%html
+    %head
+        =render "head"
+    %body{:class => (@item[:layout] if @item[:layout])}
+        .wrapper
+            .hgroup
+                =render "header"
+            .main
+                - for childItem in @item.children
+                    %a{:href => childItem.identifier}
+                        %figure.item
+                            %img.gridImg{:src => childItem[:header_image]}
+                            %figcaption.title
+                                =childItem[:title]
+            %footer
+                =render "footer"
